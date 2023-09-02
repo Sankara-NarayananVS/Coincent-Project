@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+
+}
+p{
+    color: white;
+}
+h3{
+    color: rgb(99, 212, 212);
+}
+h1{
+    color: rgb(99, 212, 212);
+}
+.card p{
+    color: #000;
+}
+.section1{
+    background-image: url(images/bgi.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+.section1 .heading{
+    padding: 200px 50px;
+}
+.section1 h1{
+    
+    text-align: center;
+    font-size: 75px;
+    color: yellow;
+}
+.section1 p{
+    
+    text-align: center;
+    font-size: 15px;
+    color: yellow;
+}
+.nav{
+    background-color: rgb(80, 80, 248);
+    position: relative;
+    box-shadow: 0px 3px 10px 0px rgb(60, 68, 62);
+    height: 75px;
+}
+.nav img{
+    padding: 10px 10px;
+    height: 75px;
+    width: 50%;
+}
+.nav-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.right-nav .nav-content{
+    color: black;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.right-nav .nav-content:hover{
+    color: rgb(9, 247, 1);
+}
+.section2{
+    padding: 20px 0px;
+}
+.section2 h2{
+    text-align: center;
+    font-family:Haettenschweiler;
+    color: rgb(99, 212, 212);
+}
+.section2 .card{
+    border: none;
+    box-shadow: 0px 3px 10px 0px rgb(112, 109, 109);
+    margin: 15px;
+}
+.section2 .card img{
+    height: 436.6px;
+}
+.section2 .card .card-body{
+    height: 294px;
+}
+.section3{
+    padding: 10px;
+}
+.section3 h2{
+    text-align: center;
+    font-family:Haettenschweiler;
+    color: rgb(99, 212, 212);
+}
+.section3 .card{
+    border: none;
+    box-shadow: 0px 3px 10px 0px rgb(131, 129, 129);
+    margin: 15px;
+    transition: 1s;
+}
+.section3 .card:hover{
+    transform: scale(1.1);
+}
+.section3 a{
+    text-decoration: none;
+}
+
+.section3 .cat-content{
+    text-decoration: none;
+    color: darkslategray;
+}
+.section3 .btndiv{
+    text-align: center;
+    padding: 10px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #4d5dfb;
+    background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+    transition: 1s;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 0px 5px 10px 6px rgba(68, 67, 67, 0.5) ;
+}
+.btn:hover{
+    transform: scale(1.1);
+    color: black;
+}
+.owl-nav{
+    text-align: center !important;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 100px !important;
+    color: rgb(43, 189, 226) !important;
+    padding: 0px;
+}
+
+.book-section1{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+.book-section1 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    font-size: 50px;
+    text-align: left;
+}
+
+.final{
+    padding: 200px;
+}
+.final a{
+    text-decoration: underline;
+    color: yellow;
+}
+
+
+.modal .modal-header h5{
+    color: rgb(80, 80, 248);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.modal .modal-body{
+    text-align: center;
+}
+.modal form{
+    margin: 30px;
+    /* padding: 20px; */
+    width: 90%;
+}
+.modal form input{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.modal form p{
+    color: black;
+}
+.modal form button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #4d5dfb;
+    background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+    transition: 1s;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 0px 5px 10px 6px rgba(68, 67, 67, 0.5) ;
+}
+.card-body{
+    background-image: linear-gradient(315deg, #12100e 0%, #2b4162 74%);
+    color: aqua;
+}
+.card-body .card-text{
+    color: #fff;
+}
+.form{
+    background-image: linear-gradient(315deg, #12100e 0%, #2b4162 74%);
+    color: aqua;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.form label{
+    font-size: 20px;
+    color: yellow;
+}
+.form input{
+    
+    font-size: 15px;
+    color: #000;
+    width: 500px;
+}
+.otherform{
+    background-image: linear-gradient(315deg, #12100e 0%, #2b4162 74%);
+    color: aqua;
+   padding: 100px;
+}
+.otherform label{
+    font-size: 20px;
+    color: yellow;
+}
+.otherform input{
+    font-size: 15px;
+    color: #000;
+    width: 500px;
+}
+.about{
+    padding: 150px;
+}
+.about p{
+    font-size: 20px;
+    color: yellow;
+}
+
+footer{
+    padding: 50px;
+    background-color: rgb(80, 80, 248);
+    position: relative;
+    box-shadow: 0px 3px 10px 0px rgb(60, 68, 62);
+    text-align: center;
+}
+footer h2{
+    color: yellow ; 
+}
+footer a{
+    color: lightgreen;
+    font-size: 25px;
+}
